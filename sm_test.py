@@ -9,3 +9,5 @@ while i <=23:
      continue
     print(i)
 
+for  letter in "America":
+   print(letter)
