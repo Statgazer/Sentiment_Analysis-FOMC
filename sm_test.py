@@ -26,7 +26,7 @@ textblob_results = []
 for desktop_path in desktop_paths:
     try:
         # Open and read the text file
-        with open(desktop_path, "r") as file:
+        with open(desktop_path,"r") as file:
             text = file.read()
 
         # Preprocess text (you can add more preprocessing steps here)
